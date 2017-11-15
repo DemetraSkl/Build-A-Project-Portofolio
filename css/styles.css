@@ -1,0 +1,119 @@
+html {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: auto;
+}
+
+body {
+	margin: 20px;
+	padding: 0;
+	font-family: Roboto, sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+	margin: 0; 
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 4px solid #7d97ad;
+    margin: 1em 0;
+    padding: 0;
+    width: 100%;
+}
+
+a {
+	color: #2d3c49;
+	text-decoration: none;
+}
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+/* 
+ *
+ Logo and Name 
+ *
+ */
+
+.header {
+	display: flex;
+	flex: 1 100%;
+	justify-content: space-between;
+}
+
+.header__logo {
+	height: 80px;
+}
+
+.header__title {
+ 	font-weight: 200;
+	font-size: 2em;
+    margin-top: 12px;
+ 	color: #2d3c49;
+ 	text-align: right;
+}
+
+.header__subtitle {
+	font-weight: 300;
+ 	font-size: 1em;
+ 	color: #2d3c49;
+ 	margin-top: 12px;
+ 	text-align: right;
+}
+
+/*
+ *
+ Container
+ *
+ */
+
+/*
+ *
+ Banner
+ *
+ */
+
+.decoration {
+	width:100%;
+}
+
+ /*
+  *
+  Featured Work
+  *
+  */
+
+.work__title {
+	font-weight: 300;
+ 	font-size: 2em;
+ 	color: #7d97ad;
+ 	margin-top: 1em;
+}
+
+.work {
+	display: flex;
+	align-items: baseline;
+	flex-flow: row wrap;
+}
+
+.col-md-4 {		
+	flex: 1 33%;
+	justify-content: center;
+
+ }
+
+ .project__header {
+	font-weight: 300;
+	font-size: 2em;
+	text-transform: uppercase;
+}
+
+.project {
+	text-align: center;
+}
